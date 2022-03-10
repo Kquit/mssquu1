@@ -3,7 +3,7 @@ import telebot
 from flask import Flask, request
 
 TOKEN = '5280003455:AAGOqtbvUpLI_DL_HIbz8h4N8ocmJGFoYbc'
-APP_URL = f'https://mssquu.herokuapp.com/{TOKEN}'
+APP_URL = f'https://stormy-shore-85550.herokuapp.com/{TOKEN}'
 bot = telebot.TeleBot(TOKEN)
 server = Flask(__name__)
 
